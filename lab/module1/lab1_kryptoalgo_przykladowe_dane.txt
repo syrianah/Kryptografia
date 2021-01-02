@@ -1,0 +1,115 @@
+Zad. 1
+Wejście:
+n = 2^(33) - 1
+k = 10
+Wyjście:
+806
+
+Wejście:
+n = 2^(33) - 1
+k = 20
+Wyjście:
+1031938
+----------------------------
+Zad. 2
+
+Wejście:
+b = 3 (liczba b będzie zawsze względnie pierwsza z n)
+n = 2^30 - 5
+Wyjście:
+357913940
+
+Wejście:
+b = 100 (liczba b będzie zawsze względnie pierwsza z n)
+n = 54321
+Wyjście:
+10321
+----------------------
+Zad. 3
+Wejście:
+b = 3
+k = 2^30
+n = 2^100 - 1
+Wyjście:
+404294742055422617191248672231
+
+Wejście:
+b = 10
+k = 3^39 + 1
+n = 2^62 + 10
+Wyjście:
+1120803652654867934
+------------------------
+Zad. 4
+
+Wejście:
+n = 2^(201) - 313 (na wejściu zawsze będzie liczba pierwsza)
+b = 2
+Wyjście:
+"b jest resztą kwadratową"
+
+Wejście:
+n = 2^(201) - 313 (na wejściu zawsze będzie liczba pierwsza)
+b = 3
+Wyjście:
+"b nie jest resztą kwadratową"
+
+Wejście:
+n = 2^33 - 9 (na wejściu zawsze będzie liczba pierwsza)
+b = 11
+Wyjście:
+"b jest resztą kwadratową"
+
+Wejście:
+n = 2^33 - 9 (na wejściu zawsze będzie liczba pierwsza)
+b = 10
+Wyjście:
+"b nie jest resztą kwadratową"
+--------------------------
+Zad. 5
+Wejście:
+n = 2^(201) - 313 (na wejściu zawsze będzie liczba pierwsza dająca resztę 3 z dzielenia przez 4)
+b = 2
+Wyjście:
+3101948484103482126970424634806781703628882321291710380824411
+
+Wejście:
+n = 2^201 - 313 (na wejściu zawsze będzie liczba pierwsza)
+b = 3
+Wyjście:
+"b nie jest resztą kwadratową"
+
+Wejście:
+n = 2^33 - 9 (na wejściu zawsze będzie liczba pierwsza)
+b = 11
+Wyjście:
+1578746474
+
+Wejście:
+n = 2^33 - 9 (na wejściu zawsze będzie liczba pierwsza)
+b = 10
+Wyjście:
+"b nie jest resztą kwadratową"
+------------------------
+Zad. 6
+
+Wejście:
+n = 2^201 - 313
+Wyjście:
+"n jest prawdopodobnie liczbą pierwszą"
+
+Wejście:
+n = 2^201 - 323
+Wyjście:
+"n jest liczbą złożoną"
+
+Wejście:
+n = 2^33 - 9
+Wyjście:
+"n jest prawdopodobnie liczbą pierwszą"
+
+Wejście:
+n = 2^(33) - 21
+Wyjście:
+"n jest liczbą złożoną"
+
