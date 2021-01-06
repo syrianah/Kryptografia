@@ -55,14 +55,17 @@ class Eliptic_Curve:
         elif P1.x == float('inf') and P1.y == float('inf'):
             return Point(P2.x, P2.y)
         elif P1.x != P2.x:
-            u = rnwd(P1.x - P2.x, self.p)
+            # u = rnwd(P1.x - P2.x, self.p)
+            u = rnwd((P1.x - P2.x) % self.p, self.p)
             lambda_ = ((P1.y - P2.y) % self.p) * u
+            # print(lambda_)
             xr = (lambda_ ** 2 - P1.x - P2.x) % self.p
             yr = (lambda_ * (P1.x - xr) - P1.y) % self.p
             return Point(xr, yr)
         elif P1.x == P2.x and P1.y == P2.y:
             u = rnwd(2*P1.y, self.p)
             lambda_ = (3*P1.x**2 + self.A) * u
+            # print(lambda_)
             xr = (lambda_ ** 2 - P1.x - P2.x) % self.p
             return Point(xr, (lambda_ * (P1.x - (lambda_ ** 2 - P1.x - P2.x) % self.p) - P1.y) % self.p)
         else:

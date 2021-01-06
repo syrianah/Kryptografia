@@ -1,0 +1,136 @@
+Zadanie 1
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+Wyjście:
+A = 49710749469
+B = 5286130045
+
+Zadanie 2
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 49710749469
+B = 5286130045
+Wyjście:
+x = 12520181851
+y = 51057687062
+
+Przykład 2:
+Wejście:
+p = 618970019642690137449562091 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 128660563210764262153857048
+B = 532143667346609077651146972
+
+Wyjście:
+x = 399245030830611326297311784
+y = 180470597269675943747018097
+
+Przykład 3:
+Wejście:
+p = 7
+A = 2
+B = 4
+Wyjście:
+x = 3
+y = 4
+
+Przykład 3:
+p = 83076749736557242056487941267521467 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 51966339240643817679159456819110758
+B = 69222991666392733393816378184919461
+Wyjście:
+x = 79710300801750565889593287421787962
+y = 19700874565724937318744089982434683
+
+
+Zadanie 3
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 49710749469
+B = 5286130045
+x = 12520181851
+y = 51057687062
+Wyjście:
+TRUE
+
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 49710749469
+B = 5286130045
+x = 12520181851
+y = 51057687000
+Wyjście:
+FALSE
+
+Wejście:
+p = 83076749736557242056487941267521467 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 51966339240643817679159456819110758
+B = 69222991666392733393816378184919461
+x = 3907170373
+y = 4656627897
+
+Wyjście:
+FALSE
+
+Wejście:
+p = 7
+A = 2
+B = 4
+x = 6
+y = 1
+
+Wyjście:
+TRUE
+
+Zadanie 4
+
+Przykład 1:
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 2645887931
+B = 63508942644
+x1 = 56174319723
+y1 = 50334202836
+x2 = 15593395299
+y2 = 42666859491
+Wyjście:
+x3 = 19207335924
+y3 = 50314146460
+
+Przykład 2:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 20850939805
+B = 59338401596
+x1 = 3789244612
+y1 = 16129056986
+x2 = 3789244612
+y2 = 52590419745
+
+Wyjście:
+x3 = infty
+y3 = infty
+
+Przykład 3:
+Wejście:
+p = 68719476731 (liczba pierwsza na wejściu przystaje do 3 mod 4)
+A = 49710749469
+B = 5286130045
+x1 = 24069898531
+y1 = 10203122697
+x2 = 24069898531
+y2 = 10203122697
+Wyjście:
+x3 = 59980568326
+y3 = 67335054959
+
+Przykład 4:
+Wejście:
+p = 7
+A = 2
+B = 4
+x1 = 3
+y1 = 4
+x2 = 0
+y2 = 2
+Wyjście:
+x3 = 6
+y3 = 1

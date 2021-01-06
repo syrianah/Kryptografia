@@ -31,7 +31,7 @@ P = E.add(P1, P2)
 print("Wyjście:")
 print(P)
 
-# print("Przykład 2")
+print("Przykład 2")
 p = 68719476731
 A = 20850939805
 B = 59338401596
@@ -72,6 +72,22 @@ print("x1 =", x1)
 print("y1 =", y1)
 print("x2 =", x2)
 print("y2 =", y2)
+P1 = Point(x1, y1)
+P2 = Point(x2, y2)
+P = E.add(P1, P2)
+# print(sum_points_in_elliptic_curve(A, B, p, x1, y1, x2, y2))
+print("Wyjście:")
+print(P)
+
+print("Przykład 4")
+p = 7
+A = 2
+B = 4
+x1 = 3
+y1 = 4
+x2 = 0
+y2 = 2
+E.change_parameters(A, B, p)
 P1 = Point(x1, y1)
 P2 = Point(x2, y2)
 P = E.add(P1, P2)
