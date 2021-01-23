@@ -1,0 +1,57 @@
+1.
+Wejście:
+a = "a3"
+b = "f2"
+Wyjście:
+"51"
+
+Wejście:
+a = "03"
+b = "1f"
+Wyjście:
+"1c"
+
+2.
+Wejście:
+a = "32"
+Wyjście:
+"64"
+
+Wejście:
+a = "ff"
+Wyjście:
+"e5"
+
+Wejście:
+a = "bc"
+Wyjście:
+"63"
+
+3.
+Wejście:
+a = "ff"
+b = "e1"
+Wyjście:
+"f7"
+
+Wejście:
+a = "02"
+b = "08"
+Wyjście:
+"10"
+
+4.
+Wejście:
+a = "03"
+Wyjście:
+"f6"
+
+Wejście:
+a = "f0"
+Wyjście:
+"5b"
+
+Wejście:
+a = "00"
+Wyjście:
+undefined
